@@ -126,7 +126,7 @@
         background: none;
         -webkit-background-clip: initial;
         -webkit-text-fill-color: initial;
-        color: rgb(0, 109, 187);
+        color: rgb(98, 0, 0);
         text-shadow: #ffffff 0px 0px 5px;
     }
     .vg{
@@ -134,7 +134,7 @@
         padding: 0px 0px 30px 0px;
         font-size: 60px;
         font-weight: 600;
-        color: #004365;
+        color: #00262e;
     }
     .vg span{
         font-size: 45px;
@@ -150,7 +150,7 @@
     
     .home .middle{
         width: 100vw;
-        backdrop-filter: blur(1px);
+        backdrop-filter: blur(0px);
         padding-top: 12vh;
         padding-bottom: 5vh;
         margin-top: 1vh;
@@ -165,19 +165,20 @@
         line-height: 25px;
     }
     .home .img{
-        width: 210px;
-        height: 210px;
+        width: 360px;
+        height: 250px;
+        background-image: url(https://i.pinimg.com/736x/d7/55/82/d755820a3d685d73ae64442fc067b6b8.jpg);
     }
     .air{
-        width: 210px;
-        height: 210px;
+        width: 250px;
+        height: 250px;
         border-radius: 30px;
-        border: var(--day_color_1) dashed 6px;
+        border: rgb(0, 118, 202) dashed 6px;
     }
     .air2{
-        width: 210px;
-        height: 210px;
+        width: 250px;
+        height: 250px;
         border-radius: 30px;
-        border: rgb(28, 28, 28) double 9px;
+        border: rgba(255, 0, 0, 0.629) double 9px;
     }
 }
