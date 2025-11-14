@@ -1,28 +1,3 @@
-// const side = document.getElementById("side");
-// const icon = document.getElementById("icon");
-// const bars = document.getElementById("bars");
-// const x_mark = document.getElementById("x-mark");
-
-// icon.addEventListener("click", () => {
-//     if (bars.style.display === "none") {
-//         bars.style.display = "block";
-//         x_mark.style.display = "none";
-//         side.style.left = "-100vw";
-//     } else {
-//         bars.style.display = "none";
-//         x_mark.style.display = "block";
-//         side.style.left = "0vw";
-//     }
-// });
-
-// side.addEventListener("click", () => {
-//     if (side.style.left === "0vw") {
-//         side.style.left = "-100vw";
-//         bars.style.display = "block";
-//         x_mark.style.display = "none";
-//     }
-// });
-
 const side = document.getElementById("side");
 const icon = document.getElementById("icon");
 const bars = document.getElementById("bars");
@@ -49,5 +24,48 @@ side.addEventListener("click", (e) => {
         side.style.left = "-100vw";
         bars.style.display = "block";
         x_mark.style.display = "none";
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+let tasksBtn2 = document.getElementById("tasksBtn2");
+let studentsList2 = document.getElementById("studentsList2");
+
+tasksBtn2.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    if (studentsList2.style.display === "flex") {
+        studentsList2.style.opacity = "0";
+        studentsList2.style.height="0px";
+        setTimeout(() => {
+            studentsList2.style.display = "none";
+            studentsList2.style.paddingTop="0px"
+            studentsList2.style.paddingBottom="0px"
+            studentsList2.style.paddingLeft="0px"
+            studentsList2.style.paddingRight="0px"
+        }, 500);
+    } else {
+        studentsList2.style.display = "flex";
+        studentsList2.style.height="0px";
+            studentsList2.style.paddingTop="30px"
+            studentsList2.style.paddingRight="20px"
+            studentsList2.style.paddingBottom="30px"
+            studentsList2.style.paddingLeft="20px"
+        setTimeout(() => {
+            studentsList2.style.opacity = "1";
+            studentsList2.style.height="550px";
+        }, 10);
+        // studentsList.style.height="max-content";
     }
 });

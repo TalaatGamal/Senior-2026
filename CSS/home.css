@@ -112,7 +112,7 @@
 @media (max-width:1300px) {
     .home .middle{
         width: 95vw;
-        /* margin-top: 3vh; */
+        margin-top: 3vh;
         margin-bottom: 5vh;
     }
     .home .middle h2{
@@ -167,6 +167,7 @@
         /* background-color: #ecf6fa87; */
         background-color: #ecf6fa;
         border-radius: 0px 0px 40px 40px;
+        margin-top: 0px;
     }
     .home .middle h3{
         font-size: 22px;
