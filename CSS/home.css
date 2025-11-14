@@ -112,7 +112,7 @@
 @media (max-width:1300px) {
     .home .middle{
         width: 95vw;
-        margin-top: 3vh;
+        /* margin-top: 3vh; */
         margin-bottom: 5vh;
     }
     .home .middle h2{
@@ -152,19 +152,21 @@
 @media (max-width:800px) {
 
     .home{
-        padding-bottom: 35vh;
+        padding-bottom: 80vh;
+        padding-top: 0px;
     }
     
     .home .middle{
         width: 100vw;
         backdrop-filter: blur(0px);
-        padding-top: 12vh;
-        padding-bottom: 5vh;
-        margin-top: 1vh;
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+        /* margin-top: 1vh; */
         border-left-color: #ffffff00;
         border-right-color: #ffffff00;
         /* background-color: #ecf6fa87; */
-        background-color: #ecf6fabe;
+        background-color: #ecf6fa;
+        border-radius: 0px 0px 40px 40px;
     }
     .home .middle h3{
         font-size: 22px;

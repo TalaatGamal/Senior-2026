@@ -285,6 +285,13 @@
     }
 }
 @media (max-width:900px) {
+    .about .bordH{
+        width: 100%;
+        max-height: 10px;
+        background-color: #ecf6fa;
+        box-shadow: #ecf6fa 0px 0px 10px 10px;
+        padding-bottom: 2vh;
+    }
     .about .content .info{
         width: 100%;
     }
