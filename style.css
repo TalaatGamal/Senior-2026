@@ -50,8 +50,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 85vw;
-    height: 65px;
+    width: 86vw;
+    height: 67px;
     backdrop-filter: blur(20px);
     background-color: #ecf6fa;
     color: var(--night_B_color_1);
@@ -61,7 +61,7 @@ header{
     border-radius: 20px;
     top: 10px;
     overflow: hidden;
-    box-shadow: #0000005b 0px 0px 5px 0px;
+    border: #0000002b solid 2.5px;
     transition: 1s;
 }
 header .logo{
