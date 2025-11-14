@@ -375,9 +375,9 @@ footer h3{
 }
 @media (max-width:1200px) {
     
-    body{
+    /* body{
         background-image: none;
-    }
+    } */
     header{
         width: 95vw;
     }
