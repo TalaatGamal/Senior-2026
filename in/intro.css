@@ -1,0 +1,181 @@
+.intro{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #e5f3f8a4;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 1s;
+    opacity: 1;
+}
+.intro .in-intro{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    min-width: max-content;
+    gap: 20px;
+}
+.intro .nn-cover{
+    width: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 1.5s;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.intro h2{
+    color: var(--day_color_1);
+    font-family: "Playwrite IN", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+.intro h2 .aa{
+    border: #00000000 solid 3px;
+    border-bottom: var(--day_color_2) solid 3.5px;
+    border-radius: 100px;
+    color: var(--day_color_2);
+}
+.intro h2 spana{
+    position: relative;
+    left: -50px;
+    top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--day_color_3);
+}
+.intro .icon{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    display: inline-flex;
+    align-items:  center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    min-width: 250px;
+    color: var(--day_color_1);
+}
+.intro hr{
+    border: none;
+    width: 30px;
+    height: 70px;
+    background-color: rgba(0, 86, 91, 0.847);
+    margin-right: 35px;
+    border-radius: 5px;
+    box-shadow: #00000066 0px 0px 10px 0px;
+    animation: hr 3.5s infinite linear;
+}
+@keyframes hr {
+    0%{
+        transform: translateY(0px);
+    }
+    30%{
+        transform: translateY(-5px);
+    }
+    70%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.hr-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.intro .nn-cover2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 2s;
+    padding: 10px;
+    opacity: 0;
+}
+.intro .in-intro2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 400px;
+    height: 130px;
+}
+.in-intro2 .title{
+    width: 750px;
+    background-color: var(--day_color_1);
+    color: var(--day_B_color_1);
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #00726e00 solid 5px;
+    border-left: #ffffff solid 5px;
+    border-right: #ffffff solid 5px;
+    box-shadow: #000000d9 0px 0px 10px 0px;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    margin-top: 40px;
+}
+.lang .en,.ar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px;
+    background-color: #00726ead;
+    border: #00726e00 solid 5px;
+    border-left: #ffffff solid 5px;
+    border-right: #ffffff solid 5px;
+    box-shadow: #00000066 0px 0px 10px 0px;
+    color: var(--day_B_color_1);
+    height: 55px;
+    width: 170px;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.lang .en:hover{
+    background-color: #00514e;
+    transform: translateY(-5px);
+}
+.lang .ar:hover{
+    background-color: #00514e;
+    transform: translateY(-5px);
+}
+.lang .img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    border: var(--day_color_1) solid 2px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+#img1{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/399/741/small/american-flag-icon-vector.jpg);
+    background-position: 20% 50%;
+}
+#img2{
+    background-image: url(https://img.freepik.com/premium-vector/national-flag-world-egypt_180401-1660.jpg?semt=ais_hybrid&w=740&q=80);
+}

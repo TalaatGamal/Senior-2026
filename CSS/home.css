@@ -1,0 +1,181 @@
+.home{
+    width: 100vw;
+    min-height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 9vh;
+}
+.home .middle{
+    background-color: #ecf6fa8f;
+    width: 85vw;
+    min-height: 80vh;
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    box-shadow: #0000005b 0px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 18vh;
+    border: #ffffffa9 solid 5px;
+    transition: 1s;
+}
+.home .middle h2{
+    background: linear-gradient(180deg , var(--day_color_9) ,var(--day_color_9) , #001212 ,var(--day_color_9) , var(--day_color_9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home .middle h2 .sdf{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.home .img{
+    background-image: url(https://cdn-icons-gif.flaticon.com/9066/9066421.gif);
+    background-position: center;
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #00000074 0px 0px 10px 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: #ffffff solid 5px;
+}
+.air{
+    will-change: transform;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    z-index: -1;
+    animation: air 10s infinite linear;
+    border: var(--day_color_1) dashed 5px;
+    border-radius: 30px;
+}
+@keyframes air {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.air2{
+    will-change: transform;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    z-index: -1;
+    animation: air2 13s infinite linear;
+    border: #00afa0 double 8px;
+    border-radius: 30px;
+}
+@keyframes air2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.home .middle h3{
+    color: #003f3d;
+    font-weight: 650;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.vg{
+    line-height: 70px;
+    padding: 0px 0px 30px 0px;
+    font-size: 80px;
+    color: var(--day_color_1);
+}
+.vg span{
+    font-size: 50px;
+}
+.tr{
+    font-size: 60px;
+    font-weight: 600;
+}
+@media (max-width:1300px) {
+    .home .middle{
+        width: 95vw;
+        margin-top: 3vh;
+        margin-bottom: 5vh;
+    }
+    .home .middle h2{
+        background: none;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+        text-shadow: #ffffff 0px 0px 5px;
+    }
+    .home .middle h2 .sdf{
+        gap: 60px;
+    }
+    .spanx{
+        font-weight: 600;
+        display: inline-flex;
+        background: none;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+        color: rgb(0, 109, 187);
+        text-shadow: #ffffff 0px 0px 5px;
+    }
+    .vg{
+        line-height: 60px;
+        padding: 0px 0px 30px 0px;
+        font-size: 60px;
+        font-weight: 600;
+        color: #004365;
+    }
+    .vg span{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .tr{
+        font-size: 50px;
+        font-weight: 620;
+    }
+    
+}
+@media (max-width:800px) {
+    
+    .home .middle{
+        width: 100vw;
+        backdrop-filter: blur(3px);
+        padding-top: 12vh;
+        padding-bottom: 5vh;
+        margin-top: 1vh;
+        border-left-color: #ffffff00;
+        border-right-color: #ffffff00;
+        background-color: #ecf6fa87;
+    }
+    .home .middle h3{
+        font-size: 20px;
+        margin: 40px 10px 0px 10px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .home .img{
+        width: 250px;
+        height: 250px;
+    }
+    .air{
+        width: 250px;
+        height: 250px;
+        border-radius: 40px;
+        border: var(--day_color_1) dashed 6px;
+    }
+    .air2{
+        width: 250px;
+        height: 250px;
+        border-radius: 40px;
+        border: rgb(28, 28, 28) double 9px;
+    }
+}
