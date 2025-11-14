@@ -27,6 +27,7 @@
 }
 .about .title h2{
     min-width: max-content;
+    color: #004860;
 }
 .about .title hr{
     border: none;
@@ -179,6 +180,7 @@
     line-height: 30px;
     font-weight: 600;
     font-size: 18px;
+    color: #004860;
 }
 .about .content .hint .v4{
     color: #000000c5;
@@ -313,8 +315,9 @@
         max-width: 90%;
     }
     .about .content .info h2{
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 650;
+        color: #00404e;
     }
     .about .content .info h2 span{
         font-size: 23px;

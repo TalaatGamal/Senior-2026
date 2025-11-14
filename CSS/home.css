@@ -119,7 +119,7 @@
         text-shadow: #ffffff 0px 0px 5px;
     }
     .home .middle h2 .sdf{
-        gap: 60px;
+        gap: 80px;
     }
     .spanx{
         font-weight: 600;
@@ -165,19 +165,19 @@
         line-height: 25px;
     }
     .home .img{
-        width: 250px;
-        height: 250px;
+        width: 210px;
+        height: 210px;
     }
     .air{
-        width: 250px;
-        height: 250px;
-        border-radius: 40px;
+        width: 210px;
+        height: 210px;
+        border-radius: 30px;
         border: var(--day_color_1) dashed 6px;
     }
     .air2{
-        width: 250px;
-        height: 250px;
-        border-radius: 40px;
+        width: 210px;
+        height: 210px;
+        border-radius: 30px;
         border: rgb(28, 28, 28) double 9px;
     }
 }
