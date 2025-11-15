@@ -449,7 +449,8 @@ nav i{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 7px;
+    gap: 8px;
+    width: 110px;
 }
 .file spanv{
     font-weight: 620;
