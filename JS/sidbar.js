@@ -41,6 +41,7 @@ side.addEventListener("click", (e) => {
 
 let tasksBtn2 = document.getElementById("tasksBtn2");
 let studentsList2 = document.getElementById("studentsList2");
+let back_btn = document.getElementById("back-btn");
 
 tasksBtn2.addEventListener("click", function (e) {
     e.preventDefault();
@@ -50,22 +51,50 @@ tasksBtn2.addEventListener("click", function (e) {
         studentsList2.style.height="0px";
         setTimeout(() => {
             studentsList2.style.display = "none";
-            studentsList2.style.paddingTop="0px"
-            studentsList2.style.paddingBottom="0px"
-            studentsList2.style.paddingLeft="0px"
-            studentsList2.style.paddingRight="0px"
         }, 500);
     } else {
         studentsList2.style.display = "flex";
         studentsList2.style.height="0px";
-            studentsList2.style.paddingTop="30px"
             studentsList2.style.paddingRight="20px"
-            studentsList2.style.paddingBottom="30px"
+            studentsList2.style.paddingBottom="150px"
+            studentsList2.style.paddingTop="20px"
             studentsList2.style.paddingLeft="20px"
         setTimeout(() => {
             studentsList2.style.opacity = "1";
-            studentsList2.style.height="550px";
-        }, 10);
+            studentsList2.style.height="690px";
+        }, 100);
         // studentsList.style.height="max-content";
     }
 });
+back_btn.addEventListener("click", function (e2) {
+    e2.preventDefault();
+
+
+
+
+    if (studentsList2.style.display === "flex") {
+        studentsList2.style.opacity = "0";
+        studentsList2.style.height="0px";
+        setTimeout(() => {
+            studentsList2.style.display = "none";
+        }, 500);
+    } else {
+        studentsList2.style.display = "flex";
+        studentsList2.style.height="0px";
+            studentsList2.style.paddingRight="20px"
+            studentsList2.style.paddingBottom="50px"
+            studentsList2.style.paddingTop="20px"
+            studentsList2.style.paddingLeft="20px"
+        setTimeout(() => {
+            studentsList2.style.opacity = "1";
+            studentsList2.style.height="690px";
+        }, 100);
+        // studentsList.style.height="max-content";
+    }
+
+
+
+
+});
+
+
