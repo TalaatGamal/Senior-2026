@@ -1,0 +1,16 @@
+
+.member-page{
+    display: none;
+}
+.all-members-page{
+    background-color: #ECF6FA;
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    z-index: 7;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    display: none;
+    transition: 0.5s;
+}

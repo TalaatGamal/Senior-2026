@@ -35,10 +35,6 @@ side.addEventListener("click", (e) => {
 
 
 
-
-
-
-
 let tasksBtn2 = document.getElementById("tasksBtn2");
 let studentsList2 = document.getElementById("studentsList2");
 let back_btn = document.getElementById("back-btn");

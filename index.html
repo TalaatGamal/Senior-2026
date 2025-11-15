@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="CSS/about.css">
     <link rel="stylesheet" href="CSS/sidebar.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/tasks.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/201/201799.png">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,20 +61,20 @@
                 <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
                 <li><a href="#about"><i class="fa-solid fa-magnifying-glass-chart"></i> About</a></li>
                 <li class="dropdown">
-                    <a href="" id="tasksBtn"><i class="fa-solid fa-person-circle-check" id="tr"></i> Tasks</a>
+                    <a href="#" id="tasksBtn"><i class="fa-solid fa-person-circle-check" id="tr"></i> Tasks</a>
                     <ul class="dropdown-menu" id="studentsList">
-                        <li><h4><span>1</span> Salah Mohamed </h4></li>
-                        <li><h4><span>2</span> Doha Al-Sayed </h4></li>
-                        <li><h4><span>3</span> Doha Mohamed Awed</h4></li>
-                        <li><h4><span>4</span> Doha Mohamed Mukhtar</h4></li>
-                        <li><h4><span>5</span> Diaa Mohamed</h4></li>
-                        <li><h4><span>6</span> Tarek Adel</h4></li>
-                        <li><h4><span>7</span> Taher Mohamed</h4></li>
-                        <li><h4><span>8</span> Talaat Gamal</h4></li>
-                        <li><h4><span>9</span> Taha Al-Sayed</h4></li>
+                        <li><h4 class="salah-btn    member-btn"><span>1</span> Salah Mohamed </h4></li>
+                        <li><h4 class="doha-s-btn   member-btn"><span>2</span> Doha Al-Sayed </h4></li>
+                        <li><h4 class="doha-m-a-btn member-btn"><span>3</span> Doha Mohamed Awed</h4></li>
+                        <li><h4 class="doha-m-m-btn member-btn"><span>4</span> Doha Mohamed Mukhtar</h4></li>
+                        <li><h4 class="diaa-btn     member-btn"><span>5</span> Diaa Mohamed</h4></li>
+                        <li><h4 class="tarek-a-btn  member-btn"><span>6</span> Tarek Adel</h4></li>
+                        <li><h4 class="taher-btn    member-btn"><span>7</span> Taher Mohamed</h4></li>
+                        <li><h4 class="talaat-btn   member-btn"><span>8</span> Talaat Gamal</h4></li>
+                        <li><h4 class="taha-btn     member-btn"><span>9</span> Taha Al-Sayed</h4></li>
                     </ul>
                 </li>
-                <li><a href=""><i class="fa-solid fa-arrows-to-eye"></i> View</a></li>
+                <li><a href="project.html"><i class="fa-solid fa-arrows-to-eye"></i> View</a></li>
                 <li><a href="https://talaatgamal.github.io/My-Portfolio/" target="_blank" id="dev"><i class="fa-solid fa-code"></i> Dev</a></li>
             </ul>
         </nav>
@@ -90,25 +91,39 @@
                 <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
                 <li><a href="#about"><i class="fa-solid fa-magnifying-glass-chart"></i> About</a></li>
                 <li class="dropdown2">
-                    <a href="" id="tasksBtn2"><i class="fa-solid fa-person-circle-check" id="tr"></i> Tasks</a>
+                    <a href="#" id="tasksBtn2"><i class="fa-solid fa-person-circle-check" id="tr"></i> Tasks</a>
                     <ul class="dropdown-menu2" id="studentsList2">
-                        <div class="back"><div class="back-btn" id="back-btn">Back</div></div>
-                        <li><h4><span>1</span> Salah Mohamed </h4></li>
-                        <li><h4><span>2</span> Doha Al-Sayed </h4></li>
-                        <li><h4><span>3</span> Doha Mohamed Awed</h4></li>
-                        <li><h4><span>4</span> Doha Mohamed Mukhtar</h4></li>
-                        <li><h4><span>5</span> Diaa Mohamed</h4></li>
-                        <li><h4><span>6</span> Tarek Adel</h4></li>
-                        <li><h4><span>7</span> Taher Mohamed</h4></li>
-                        <li><h4><span>8</span> Talaat Gamal</h4></li>
-                        <li><h4><span>9</span> Taha Al-Sayed</h4></li>
+                        <div class="back">
+                            <div class="back-btn" id="back-btn">Back</div>
+                            <i class="fa-solid fa-user-graduate" id="man"></i>
+                        </div>
+                        <li><h4 class="salah-btn    member-btn"><span>1</span> Salah Mohamed </h4></li>
+                        <li><h4 class="doha-s-btn   member-btn"><span>2</span> Doha Al-Sayed </h4></li>
+                        <li><h4 class="doha-m-a-btn member-btn"><span>3</span> Doha Mohamed Awed</h4></li>
+                        <li><h4 class="doha-m-m-btn member-btn"><span>4</span> Doha Mohamed Mukhtar</h4></li>
+                        <li><h4 class="diaa-btn     member-btn"><span>5</span> Diaa Mohamed</h4></li>
+                        <li><h4 class="tarek-a-btn  member-btn"><span>6</span> Tarek Adel</h4></li>
+                        <li><h4 class="taher-btn    member-btn"><span>7</span> Taher Mohamed</h4></li>
+                        <li><h4 class="talaat-btn   member-btn"><span>8</span> Talaat Gamal</h4></li>
+                        <li><h4 class="taha-btn     member-btn"><span>9</span> Taha Al-Sayed</h4></li>
                     </ul>
                 </li>
-                <li><a href=""><i class="fa-solid fa-arrows-to-eye"></i> View</a></li>
+                <li><a href="project.html"><i class="fa-solid fa-arrows-to-eye"></i> View</a></li>
                 <li><a href="https://talaatgamal.github.io/My-Portfolio/" target="_blank" id="dev2"><i class="fa-solid fa-code"></i> Developer</a></li>
             </ul>
         </div>
     </div>
+        <div class="all-members-page" id="all-members-page">
+            <div class="salah    member-page"  id="salah"></div>
+            <div class="doha-s   member-page"  id="doha-s"></div>
+            <div class="doha-m-a member-page"  id="doha-m-a"></div>
+            <div class="doha-m-m member-page"  id="doha-m-m"></div>
+            <div class="diaa     member-page"  id="diaa"></div>
+            <div class="tarek-a  member-page"  id="tarek-a"></div>
+            <div class="taher    member-page"  id="taher"></div>
+            <div class="talaat   member-page"  id="talaat"></div>
+            <div class="taha     member-page"  id="taha"></div>
+        </div>
     <div class="main">
         <section class="home" id="home">
             <div class="middle">
@@ -293,6 +308,7 @@
     </div>
     <!-- <script src="in/intro.js"></script> -->
     <script src="JS/sidbar.js"></script>
+    <script src="JS/tasks.js"></script>
     <script src="JS/main.js"></script>
 </body>
 </html>
