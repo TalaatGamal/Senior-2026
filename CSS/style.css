@@ -409,7 +409,8 @@ nav i{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     gap: 15px;
 
     background-color: #ECF6FA;
@@ -418,13 +419,14 @@ nav i{
     box-shadow: #00000082 0px 0px 5px 0px;
 }
 .file{
-    width: 170px;
-    height: 95px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: #00434c4d solid 3px;
+    width: 360px;
+    height: 65px;
+    border: #00434c4d solid 2.5px;
+    background-color: #ECF6FA;
 }
 .file h2{
     font-size: 20px;
@@ -433,12 +435,13 @@ nav i{
     line-height: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
     gap: 7px;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    color: #00212c;
 }
 .file h2 span a{
-    margin: 0px 30px 0px 30px;
     padding: 8px 11px 8px 11px;
     line-height: 20px;
     border-radius: 10px;
@@ -519,19 +522,19 @@ footer h3{
         border-radius: 30px;
         background-color: inherit;
     }
-    .file{
+    /* .file{
         width: 360px;
         height: 65px;
         border: #00434c4d solid 2.5px;
         background-color: #ECF6FA;
-    }
-    .file h2{
+    } */
+    /* .file h2{
         justify-content: space-between;
         flex-direction: row;
         width: 100%;
         padding: 0px 20px 0px 20px;
         color: #00212c;
-    }
+    } */
     .file h2 span a{
         margin: 0px 0px 0px 0px;
     }
