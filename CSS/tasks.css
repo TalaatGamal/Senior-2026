@@ -12,5 +12,36 @@
     left: 0px;
     opacity: 0;
     display: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
     transition: 0.5s;
+}
+.all-members-page img{
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: #ffffff 0px 0px 50px 50px;
+}
+.all-members-page .not-valid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.all-members-page .not-valid h1{
+    font-size: 55px;
+    font-weight: 620;
+    color: #00acd3;
+    line-height: 60px;
+    width: 340px;
+    text-align: center;
+}
+.all-members-page .not-valid h1 span{
+    font-weight: 620;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
 }
