@@ -10,14 +10,14 @@
     z-index: 7;
     top: 0px;
     left: 0px;
-    opacity: 0;
-    display: none;
-    /* display: flex; */
+    /* opacity: 0;
+    display: none; */
+    display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
 }
-.all-members-page img{
+.all-members-page .not-valid img{
     width: 250px;
     border-radius: 30px;
     box-shadow: #ffffff 0px 0px 50px 50px;
@@ -45,3 +45,8 @@
     justify-content: center;
     font-size: 25px;
 }
+
+
+
+
+
