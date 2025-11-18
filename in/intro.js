@@ -11,7 +11,7 @@ const ar_btn = document.getElementById("ar")
 document.addEventListener("DOMContentLoaded", function() {
     
     setTimeout(() => {
-        nn_cover.style.width="100%"
+        // nn_cover.style.width="100%"
         nn_cover2.style.opacity="1"
     }, 400);
     

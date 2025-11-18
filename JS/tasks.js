@@ -16,7 +16,16 @@ member_btns.forEach(btn => {
         setTimeout(() => {
             all_members_page.style.opacity = "1";
         }, 10);
-
+        setTimeout(() => {
+            let main = document.getElementById("main")
+            main.style.display="none"
+        }, 480);
+        if (main.style.display === "none") {
+            console.log("main is \"none\"")
+        }
+        setTimeout(() => {
+            all_members_page.style.backgroundColor= "#00000020";
+        }, 500);
 
 // sidebar ----------------------------------------
     if (bars.style.display === "none") {
