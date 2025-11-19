@@ -39,6 +39,7 @@ body{
     background-attachment: fixed;
     background-color: var(--day_B_color_1);
     overflow-x: hidden;
+    overflow-y: auto;
 }
 .main{
     width: 100vw;
