@@ -36,6 +36,7 @@
 .home .img{
     width: 380px;
     height: 250px;
+    /* background-color: #171F2B; */
     background-image: url(https://i.pinimg.com/736x/d7/55/82/d755820a3d685d73ae64442fc067b6b8.jpg);
     
     /* background-image: url(https://cdn-icons-gif.flaticon.com/9066/9066421.gif); */
@@ -52,6 +53,12 @@
     margin-right: 60px;
     border: #ffffff solid 5px;
 }
+/* .video{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+} */
 .air{
     will-change: transform;
     width: 250px;

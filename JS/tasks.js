@@ -50,6 +50,8 @@ tasksBtn.addEventListener("click", function (e) {
 
 let all_members_page = document.getElementById("all-members-page");
 let member_btns = document.querySelectorAll(".member-btn");
+let imga_2 = document.getElementById("imga-2")
+
 
 member_btns.forEach(btn => {
 
@@ -89,6 +91,14 @@ member_btns.forEach(btn => {
         setTimeout(() => {
             all_members_page.style.backgroundColor= "#00000020";
         }, 250);
+        
+        
+        setTimeout(() => {
+        imga_2.style.opacity="0"
+        }, 3000);
+        setTimeout(() => {
+            imga_2.style.display="none"
+        }, 4000);
 
 // sidebar ----------------------------------------
     if (bars.style.display === "none") {
@@ -102,10 +112,6 @@ member_btns.forEach(btn => {
     });
 
 });
-
-
-
-
 
 
 
