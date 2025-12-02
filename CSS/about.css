@@ -19,8 +19,8 @@
     width: 100%;
     max-height: 10px;
     background-color: #ecf6fa;
-    box-shadow: #ecf6fa 0px 0px 10px 10px;
-    padding-bottom: 7vh;
+    /* box-shadow: #ecf6fa 0px 0px 10px 10px; */
+    padding-bottom: 5vh;
 }
 .about .title{
     display: flex;
@@ -65,20 +65,19 @@
 .about .content .info h2{
     max-width: 680px;
     line-height: 32px;
-    font-size: 20px;
+    font-size: 18.5px;
     font-weight: 600;
     text-align: center;
 }
 .about .content .info h2 span{
-    font-size: 25px;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 .about .content .info h3{
     font-weight: 600;
     background-color: #ffffffd2;
     border-radius: 20px;
-    padding: 0px 20px 5px 20px;
+    /* padding: 0px 20px 5px 20px; */
+    padding: 0px;
     width: 100%;
     max-width: 600px;
     display: flex;
@@ -86,7 +85,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
-    border: #0000002b solid 2.5px;
+    /* border: #0000002b solid 2.5px; */
 }
 .about .content .info h3 span{
     display: flex;
@@ -94,7 +93,7 @@
     justify-content: center;
     gap: 15px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     border: #00000000 solid 4px;
     border-left: #00a2b8 solid 4px;
     border-right: #00a2b8 solid 4px;
@@ -167,7 +166,7 @@
 }
 .about .content .hint .title h2{
     background-color: #ffffffd2;
-    border: #0000002b solid 2.5px;
+    /* border: #0000002b solid 2.5px; */
     width: 100%;
     border-radius: 20px;
     line-height: 40px;
@@ -176,8 +175,8 @@
     justify-content: center;
     font-size: 23px;
     font-weight: 600;
-    padding: 3px;
-    padding-bottom: 5px;
+    padding: 0px;
+    /* padding-bottom: 5px; */
 }
 .about .content .hint .title h2 i{
     font-size: 25px;
@@ -198,7 +197,7 @@
     justify-content: center;
     gap: 15px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.801);
     border: #00000000 solid 4px;
     border-left: #00a2b8 solid 4px;
     border-right: #00a2b8 solid 4px;

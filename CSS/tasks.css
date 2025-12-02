@@ -303,6 +303,7 @@
 .front-content{
     background-color: #0050607b;
     width: 100%;
+    min-width: 400px;
     min-height: 100%;
     border-radius: 15px;
     display: flex;
@@ -548,8 +549,11 @@
     }
     
 }
+@media (max-width:1135px) {
+    
+}
 @media (max-width:800px) {
-
+    
     .member-page{
         padding-top: 100vh;
     }
@@ -564,4 +568,5 @@
         border-radius: 0px 0px 40px 40px;
         margin-top: 0px;
     }
+    
 }

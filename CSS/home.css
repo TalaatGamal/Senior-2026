@@ -7,10 +7,9 @@
     padding-top: 9vh;
 }
 .home .middle{
-    background-color: #ecf6fa8f;
+    background-color: #f6fcffb7;
     width: 85vw;
     min-height: 80vh;
-    backdrop-filter: blur(5px);
     border-radius: 40px;
     box-shadow: #0000005b 0px 0px 10px 0px;
     display: flex;
@@ -37,7 +36,7 @@
     width: 380px;
     height: 250px;
     /* background-color: #171F2B; */
-    background-image: url(https://i.pinimg.com/736x/d7/55/82/d755820a3d685d73ae64442fc067b6b8.jpg);
+    /* background-image: url(https://i.pinimg.com/736x/d7/55/82/d755820a3d685d73ae64442fc067b6b8.jpg); */
     
     /* background-image: url(https://cdn-icons-gif.flaticon.com/9066/9066421.gif); */
     background-position: center;
@@ -59,12 +58,84 @@
     position: absolute;
     z-index: 1;
 } */
+.vid{
+    width: 380px;
+    height: 250px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    border: #ffff00 solid 5px;
+    /* opacity: 20%; */
+    /* animation: vid 20s infinite linear; */
+    /* display: none; */
+}
+.vid video{
+    width: 120%;
+    /* display: none; */
+}
+@keyframes vid {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 30%;
+        border: #ffd000 solid 5px;
+    }
+    60%{
+        opacity: 100%;
+        border: #ffd000 solid 5px;
+    }
+    90%{
+        opacity: 100%;
+        border: #ffd000 solid 5px;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+/* @keyframes vid {
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 30%;
+        border: #ffd000 solid 5px;
+    }
+    60%{
+        opacity: 100%;
+        border: #ffd000 solid 5px;
+        margin-bottom: 0px;
+    }
+    65%{
+        margin-bottom: 200px;
+    }
+    70%{
+        margin-bottom: 500px;
+    }
+    90%{
+        opacity: 100%;
+        border: #ffd000 solid 5px;
+        margin-bottom: 500px;
+    }
+    95%{
+        opacity: 100%;
+        border: #ffd000 solid 5px;
+        margin-bottom: 500px;
+    }
+    100%{
+        opacity: 0%;
+    }
+} */
 .air{
     will-change: transform;
     width: 250px;
     height: 250px;
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     animation: air 10s infinite linear;
     border: rgb(0, 79, 136) dashed 6px;
     border-radius: 30px;
@@ -82,7 +153,7 @@
     width: 250px;
     height: 250px;
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     animation: air2 13s infinite linear;
     border: rgba(131, 0, 0, 0.629) double 9px;
     border-radius: 30px;
