@@ -12,7 +12,7 @@
     overflow: hidden;
     display: none;
     opacity: 0;
-    border-radius: 30px;
+    border-radius: 20px;
     list-style: none;
     z-index: 9;
     transition: 0.4s;
@@ -21,9 +21,9 @@
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    background-color: #ECF6FA;
+    background-color: #f8feff;
     /* padding: 30px 20px 30px 20px; */
-    border: #89898990 solid 3.5px;
+    border: #89898990 solid 3px;
 }
 .dropdown-menu li h4{
     display: flex;

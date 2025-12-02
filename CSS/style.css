@@ -54,12 +54,12 @@ header{
     width: 86vw;
     height: 67px;
     backdrop-filter: blur(20px);
-    background-color: #ecf6fa;
+    background-color: #f2f6f8;
     color: var(--night_B_color_1);
     position: fixed;
     z-index: 9;
     padding: 5px 5px 5px 0px;
-    border-radius: 20px;
+    border-radius: 22px;
     top: 10px;
     /* overflow: hidden; */
     border: #0000002b solid 2.5px;
@@ -69,7 +69,6 @@ header .logo{
     min-width: 320px;
     height: 60px;
     margin-bottom: 10px;
-    background: linear-gradient(to right , #ecf6fa ,#ecf6fa, #ecf6fa00);
     padding: 0px 0px 0px 15px;
     border-radius: 20px;
     margin-top: 10px;
@@ -100,11 +99,10 @@ header .logo h2 spana{
 }
 nav{
     min-width: max-content;
-    background-color: #ecf6fa;
-    box-shadow: #006966 0px 0px 7px 0px;
+    /* background-color: #F2F6F8; */
+    box-shadow: #006966a4 0px 0px 6px 0px;
     height: 100%;
     border-radius: 17px;
-    border: #00696633 solid 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +198,8 @@ nav i{
     font-size: 23px;
 }
 .other{
-    background-color: #ECF6FA;
+    /* background-color: #F2F6F8; */
+    background-color: #e8f2f6;
     backdrop-filter: blur(2px);
     width: 100%;
     min-height: 350px;
@@ -280,7 +279,7 @@ nav i{
     margin-top: 50px;
 }
 .foot-in h1 ul li{
-    background-color: #ECF6FA;
+    background-color: #F2F6F8;
 }
 .foot-in .fu{
     max-width: 400px;
@@ -299,7 +298,7 @@ nav i{
     border-radius: 15px;
     border: #0000002b solid 2.5px;
     margin: 5px;
-    background-color: #ECF6FA;
+    background-color: #F2F6F8;
 }
 .foot-in ul li h3{
     line-height: 25px;
@@ -331,7 +330,8 @@ nav i{
     /* flex-wrap: wrap; */
     gap: 15px;
 
-    background-color: #ECF6FA;
+    /* background-color: #ECF6FA; */
+    background-color: #F2F6F8;
     padding: 20px 10px 20px 10px;
     border-radius: 20px;
     /* box-shadow: #00000082 0px 0px 5px 0px; */
@@ -353,7 +353,7 @@ nav i{
     width: 360px;
     height: 65px;
     border: #00434c4d solid 2.5px;
-    background-color: #ECF6FA;
+    /* background-color: #ECF6FA; */
 }
 .file h2{
     font-size: 20px;

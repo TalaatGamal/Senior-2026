@@ -69,11 +69,13 @@ back_btn.addEventListener("click", function (e2) {
 
 
     if (studentsList2.style.display === "flex") {
-        studentsList2.style.opacity = "0";
         studentsList2.style.height="0px";
         setTimeout(() => {
+            studentsList2.style.opacity = "0";
+        }, 70);
+        setTimeout(() => {
             studentsList2.style.display = "none";
-        }, 500);
+        }, 300);
     } else {
         studentsList2.style.display = "flex";
         studentsList2.style.height="0px";
