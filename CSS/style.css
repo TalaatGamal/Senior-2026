@@ -184,18 +184,19 @@ nav i{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ebfffd;
-    border: #007b6887 solid 2px;
-    border-radius: 13px;
+    /* background-color: #ebfffd; */
+    /* border: #007b6887 solid 2px; */
+    /* border-radius: 13px; */
     display: none;
     cursor: pointer;
+    font-size: 23px;
 }
 #bars{
     display: block;
 }
 #x-mark{
     display: none;
-    font-size: 23px;
+    /* font-size: 23px; */
 }
 .other{
     /* background-color: #F2F6F8; */
