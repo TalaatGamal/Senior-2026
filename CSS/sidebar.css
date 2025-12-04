@@ -7,7 +7,7 @@
     left: -100vw;
     transition: 0.3s;
     overflow: hidden;
-    background-color: #0000002f;
+    background-color: #00000015;
 }
 .side-in{
     width: 70vw;
@@ -117,7 +117,7 @@
     flex-direction: column;
     gap: 20px;
     /* background-color: #ECF6FA; */
-    background-color: #f5f6f6bd;
+    background-color: #F8FEFF;
     backdrop-filter: blur(10px);
     padding: 20px 20px 30px 20px;
     border: #74747400 solid 6px;
@@ -140,16 +140,13 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    color: #ff3232e5;
+    color: #ff3232b0;
     font-size: 25px;
-    text-shadow: #ff4949b2 0px 0px 5px;
+    text-shadow: #aa2a2a7e 0px 0px 2px;
     padding: 0px 17px 0px 10px;
 }
-.dropdown-menu2 .back .back-btn i{
-    transform: rotate(90deg);
-}
 .dropdown-menu2 .back #man{
-    font-size: 30px;
+    font-size: 27px;
     color: #00606c;
     text-shadow: #ffffff 0px 0px 4px;
 }
