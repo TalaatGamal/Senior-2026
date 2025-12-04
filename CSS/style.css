@@ -184,8 +184,8 @@ nav i{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
-    border: #0000002b solid 2.5px;
+    background-color: #ebfffd;
+    border: #007b6887 solid 2px;
     border-radius: 13px;
     display: none;
     cursor: pointer;
@@ -418,6 +418,9 @@ footer h3{
     }
     header{
         padding: 5px 10px 5px 0px;
+        border: none;
+        background-color: rgba(246, 255, 251, 0.66);
+        backdrop-filter: blur(4px);
     }
     .side-icon{
         display: flex;
