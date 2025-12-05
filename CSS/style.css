@@ -313,13 +313,14 @@ nav i{
 }
 .foot-in ul li span{
     min-width: 40px;
-    height: 30px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border-bottom: #00838c solid 3px; */
-    font-size: 17px;
-    color: #005965;
+    font-size: 20px;
+    background-color: #3e7c7d;
+    border-radius: 7px;
+    color: #ffffff;
 }
 .foot-in .files{
     width: 400px;
@@ -443,6 +444,7 @@ footer h3{
     }
     .foot-in ul li{
         box-shadow: none;
+        border: none;
     }
     .foot-in h1{
         min-height: 280px;
@@ -454,19 +456,6 @@ footer h3{
         border-radius: 30px;
         background-color: inherit;
     }
-    /* .file{
-        width: 360px;
-        height: 65px;
-        border: #00434c4d solid 2.5px;
-        background-color: #ECF6FA;
-    } */
-    /* .file h2{
-        justify-content: space-between;
-        flex-direction: row;
-        width: 100%;
-        padding: 0px 20px 0px 20px;
-        color: #00212c;
-    } */
     .file h2 span a{
         margin: 0px 0px 0px 0px;
     }
