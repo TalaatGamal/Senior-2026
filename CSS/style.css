@@ -254,6 +254,9 @@ nav i{
     margin-top: 1vh;
     margin-bottom: 10vh;
 }
+.foot-in .love{
+    display: none;
+}
 .foot-in h1{
     display: flex;
     align-items: center;
@@ -342,10 +345,12 @@ nav i{
     background-image: url(https://cdn-icons-gif.flaticon.com/7740/7740491.gif);
     /* background-image: url(https://cdn-icons-gif.flaticon.com/6455/6455041.gif); */
     background-position: center;
-    background-size: cover;
-    width: 200px;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    width: 340px;
     height: 200px;
-    border-radius: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
 }
 .file{
     border-radius: 20px;
@@ -466,5 +471,32 @@ footer h3{
         margin: 20px 20px 40px 20px;
         max-width: 370px;
         box-shadow: none;
+    }
+    .foot-in .love{
+        display: block;
+        border-radius: 20px;
+        width: 340px;
+        height: 200px;
+        background-image: url(https://i.pinimg.com/736x/d6/b6/d7/d6b6d72933ae3be1cc1643fabfa9acca.jpg);
+        /* background-image: url(https://cdn-icons-gif.flaticon.com/18114/18114120.gif); */
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-color: #ffffff;
+        animation: love 2s infinite linear;
+    }
+    @keyframes love {
+        0%{
+            background-size: 50%;
+        }
+        40%{
+            background-size: 60%;
+        }
+        70%{
+            background-size: 60%;
+        }
+        100%{
+            background-size: 50%;
+        }
     }
 }
