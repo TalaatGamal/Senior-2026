@@ -187,4 +187,13 @@
         text-align: center;
         line-height: 25px;
     }
+    .img-ink{
+        border-radius: 30px 300px 30px 300px;
+    }
+    .air{
+        border-radius: 30px 300px 30px 300px;
+    }
+    .air2{
+        border-radius: 30px 300px 30px 300px;
+    }
 }
