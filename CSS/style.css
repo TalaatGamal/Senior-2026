@@ -38,8 +38,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-color: var(--day_B_color_1);
-    overflow-x: hidden;
-    overflow-y: auto;
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+    overflow: hidden;
 }
 .main{
     width: 100vw;

@@ -1,7 +1,8 @@
 .intro{
     width: 100vw;
     height: 100vh;
-    background-color:  #d4e1e7;
+    background-color: #d4e1e7af;
+    backdrop-filter: blur(5px);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -113,25 +114,33 @@
     min-height: 130px;
 }
 .in-intro2 .title{
-    color: var(--day_B_color_2);
+    color: #000000b4;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
     gap: 20px;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: 620;
+    padding: 10px;
+}
+.in-intro2 .title span{
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: 620;
 }
 .lang{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     /* flex-direction: column; */
-    gap: 30px;
+    gap: 50px;
     border-radius: 20px;
-    width: 400px;
-    height: 100px;
+    min-height: 100px;
     margin-top: 40px;
+    padding: 20px;
 }
 .lang .en,.ar{
     display: flex;
@@ -139,11 +148,11 @@
     justify-content: center;
     gap: 10px;
     font-size: 25px;
-    background-color: #00726ead;
-    border: #00726e00 solid 5px;
+    background-color: #005772ad;
+    /* border: #00726e00 solid 5px;
     border-left: #ffffff solid 5px;
     border-right: #ffffff solid 5px;
-    box-shadow: #00000066 0px 0px 10px 0px;
+    box-shadow: #00000066 0px 0px 10px 0px; */
     color: var(--day_B_color_1);
     height: 53px;
     width: 170px;
@@ -160,11 +169,8 @@
     transform: translateY(-5px);
 }
 .lang .img{
-    width: 35px;
-    height: 35px;
-    border-radius: 100px;
-    border: var(--day_color_1) solid 2px;
-    background-image: url();
+    width: 40px;
+    height: 30px;
     background-position: center;
     background-size: cover;
 }
@@ -174,4 +180,21 @@
 }
 #img2{
     background-image: url(https://img.freepik.com/premium-vector/national-flag-world-egypt_180401-1660.jpg?semt=ais_hybrid&w=740&q=80);
+}
+@media (max-width:890px) {
+    .in-intro2{
+        margin-bottom: 200px;
+    }
+    .in-intro2 .title{
+        font-size: 38px;
+        color: #00413ec2;
+    }
+    .lang{
+        gap: 20px;
+    }
+    .lang .en,.ar{
+        height: 53px;
+        width: 300px;
+        border-radius: 15px;
+    }
 }

@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(() => {
         // nn_cover.style.width="100%"
         nn_cover2.style.opacity="1"
-    }, 400);
+    }, 100);
     
 });
 
